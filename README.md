@@ -3,7 +3,7 @@
 ## 1. Información del Proyecto
 
 * **Nombre del proyecto:** Bauhaus en movimiento
-* **Autora:** Fatima Alexia Vera Navarrete
+* **Autora:** Fatima Alexia Vera Navarre
 
 ### Descripción objetiva
 
