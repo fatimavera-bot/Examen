@@ -1,6 +1,6 @@
 # BAUHAUS DIGITAL: Sistema Visual Interactivo
 
-**Autor/a:** Fatima Alexia Vera Navarrete                   
+**Autora:** Fatima Alexia Vera Navarrete                   
 **Profesora:** Sofía Suazo                 
 **Asignatura:** Pensamiento Computacional             
 **Examen Final:** Escuela de Diseño UDP                 
@@ -17,7 +17,7 @@
 ## Información del Proyecto
 
 * **Nombre del proyecto:** BAUHAUS DIGITAL: Sistema Visual Interactivo
-* **Autor/a:** Fatima Alexia Vera Navarrete
+* **Autora:** Fatima Alexia Vera Navarrete
 * **Descripción general:** Sistema visual e interactivo desarrollado en p5.js que traduce los lenguajes artísticos de la vanguardia Bauhaus a un entorno algorítmico y reactivo. El sistema transita por una pantalla informativa y dos experiencias dinámicas donde el color, la geometría y la síntesis sonora interactúan directamente con las acciones del usuario mediante teclado y mouse.
 
 ---
@@ -83,8 +83,15 @@ El proyecto se comporta como un sistema cerrado que procesa entradas de datos di
 
 ## Registro Visual
 
-### Referentes y Bocetos
-*Aquí puedes describir brevemente cómo pensaste la grilla modular o la disposición de las formas en papel y tus referencias visuales antes de traspasarlas por completo a las líneas de código.*
+### Referentes
+<img width="350" height="350" alt="wassily-kandinsky" src="https://github.com/user-attachments/assets/6f96f8e8-67fa-4fec-8e32-f25f324d40bf" />
+<img width="440" height="454" alt="images" src="https://github.com/user-attachments/assets/aaefcac0-c0ef-42f9-b8ab-96ba557d613f" />
+
+
+
+
+
+
 
 ### Iteraciones y Capturas del Proceso
 
