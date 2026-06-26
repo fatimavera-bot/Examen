@@ -10,7 +10,7 @@
 ## Enlaces del Proyecto
 
 * [Ejecutar el proyecto en pantalla completa]https://editor.p5js.org/fatima.vera/full/ZBB3iKDFj
-* [Revisar y editar el código en p5.js](https://editor.p5js.org/fatima.vera/sketches/ZBB3iKDFj)
+* [Revisar y editar el código en p5.js]https://editor.p5js.org/fatima.vera/sketches/ZBB3iKDFj
 
 ---
 
