@@ -86,7 +86,11 @@ El proyecto se comporta como un sistema cerrado que procesa entradas de datos di
 ### Referentes
 
 
-https://moryarty.es/products/bauhaus-abstract-geometric-moryarty-poster-fine-art-print
+
+<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/8b414155-2db0-4b83-b54e-e12086aadae9" />
+<img width="2048" height="1418" alt="image" src="https://github.com/user-attachments/assets/1a5a5ae9-3ce6-49b4-99ee-1d909c5cd8b7" />
+<img width="1080" height="1080" alt="image" src="https://github.com/user-attachments/assets/4255fa7f-3f8b-4bee-ac60-9313b86aee02" />
+<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/75752518-f106-40e3-941a-40a9dc76bdf2" />
 
 
 
