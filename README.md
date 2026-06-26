@@ -1,88 +1,105 @@
-
 # BAUHAUS DIGITAL: Sistema Visual Interactivo
-**Autor:** Fatima Alexia Vera Navarrete            
-**Profesora:** Sofía Suazo             
-**Asignatura:** Pensamiento Computacional              
-**Examen Final** - Escuela de Diseño UDP          
+
+**Autor/a:** Fatima Alexia Vera Navarrete                   
+**Profesora:** Sofía Suazo                 
+**Asignatura:** Pensamiento Computacional             
+**Examen Final:** Escuela de Diseño UDP                 
 
 ---
 
-##  Enlaces del Proyecto
-**Link público para ejecutar el proyecto** (https://editor.p5js.org/fatima.vera/full/ZBB3iKDFj)
-**Link editable para revisar el código**(https://editor.p5js.org/fatima.vera/sketches/ZBB3iKDFj))
+## Enlaces del Proyecto
+
+* [Ejecutar el proyecto en pantalla completa](https://editor.p5js.org/fatima.vera/full/ZBB3iKDFj)
+* [Revisar y editar el código en p5.js](https://editor.p5js.org/fatima.vera/sketches/ZBB3iKDFj)
 
 ---
 
-##  Descripción General
+## Información del Proyecto
 
-### Descripción Objetiva
-**Bauhaus Digital** Es un sistema visual e interactivo desarrollado en p5.js. El usuario se encuentra inicialmente con una pantalla de bienvenida que introduce los comandos. Al interactuar con el teclado, puede acceder a dos escenas dinámicas: una grilla geométrica que reconfigura su cantidad de columnas y filas mediante el movimiento del mouse, y un estudio de color con círculos concéntricos y un triángulo interactivo. El sistema genera respuestas visuales en tiempo real y modula frecuencias de audio el cual cambia segun las acciones del usuario.
-
-### Descripción Conceptual
-* **Idea Central:** Traducir los principios de la escuela Bauhaus a un entorno digital algorítmico, donde las formas y los colores no son estáticos, sino variables controladas por lógica matemática e interactiva.
-* **Corriente o Referente de Diseño:** La escuela **Bauhaus** (particularmente inspirada en los talleres de pintura abstracta y teoría del color de Vasili Kandinsky y Johannes Itten).
-* **Principio de Diseño Explorado:** La síntesis geométrica, el uso de la paleta de colores primarios oficiales (rojo, azul, amarillo, blanco/crema y negro) y la relación entre forma, color y sonido (sinestesia).
+* **Nombre del proyecto:** BAUHAUS DIGITAL: Sistema Visual Interactivo
+* **Autor/a:** Fatima Alexia Vera Navarrete
+* **Descripción general:** Sistema visual e interactivo desarrollado en p5.js que traduce los lenguajes artísticos de la vanguardia Bauhaus a un entorno algorítmico y reactivo. El sistema transita por una pantalla informativa y dos experiencias dinámicas donde el color, la geometría y la síntesis sonora interactúan directamente con las acciones del usuario mediante teclado y mouse.
 
 ---
 
-##  Sistema Computacional
+## Descripción Objetiva
 
-El proyecto se comporta como un sistema cerrado que procesa entradas para generar transformaciones en los estados visuales y sonoros:
-
-* **Inputs:**
-    * Posición del mouse en los ejes X e Y (mouseX, mouseY).
-    * Eventos de teclado (Teclas A, S, E).
-    * Click sostenido del mouse (mouseIsPressed).
-* **Procesos:**
-    * Mapeo continuo (map()) de la posición del mouse para calcular la densidad de filas/columnas y el tamaño de las figuras.
-    * Cálculo de alternancia geométrica (operador residuo %) para intercalar cuadrados, círculos y colores.
-    * Cálculo del desplazamiento vertical infinito basado en el frameCount.
-    * Generación de desfases mediante random() al hacer click.
-* **Estados del Sistema:**
-    * Estado 0: Pantalla de inicio (Presentación del afiche estático e instrucciones).
-    * Estado 1: Grilla Bauhaus (Composición modular interactiva en movimiento continuo).
-    * Estado 2: Estudio de Color y Forma (Exploración geométrica concéntrica y sinestésica).
-* **Eventos:**
-    * Presionar A o a: Transiciona al Estado 1.
-    * Presionar S o s: Transiciona al Estado 2.
-    * Presionar E o e: Retorna al Estado 0.
-    * Hacer click con el mouse: Activa el factor aleatorio en el Estado 2.
-* **Outputs:**
-    * **Visual:** Renderizado reactivo en el lienzo (canvas) de formas geométricas en movimiento y textos dinámicos.
-    * **Sonoro:** Onda de audio sintetizada (tipo triángulo) cuya frecuencia e intensidad varían según la posición e interacción del cursor.
+* **Qué es el proyecto:** Es un software de arte generativo y diseño interactivo programado sobre la biblioteca p5.js.
+* **Qué se ve en pantalla:** Una interfaz gráfica modular variable que transita por tres vistas o estados de interacción diferenciados por el uso del color de fondo y la densidad geométrica.
+* **Qué elementos visuales aparecen:** Rectángulos, líneas de corte vertical, textos tipográficos de estilo afiche, una matriz de celdas móviles independientes que alternan cuadrados y círculos, círculos concéntricos expansivos y un triángulo central con transparencias.
+* **Qué inputs utiliza:** Coordenadas de posición del cursor en los ejes horizontal y vertical, clicks continuos del mouse y pulsaciones de teclas específicas (*A*, *S*, *E*).
+* **Qué outputs genera:** Renderizado gráfico reactivo bidimensional en un lienzo digital de 400x600 píxeles y una onda de audio sintetizada cuya frecuencia y volumen se transforman dinámicamente en tiempo real.
 
 ---
 
-##  Diagrama de Flujo
+## Descripción Conceptual
 
-A continuación se presenta el mapa lógico del sistema que describe las transiciones de los estados, procesos y decisiones del código:
-
-![Diagrama de Flujo del Sistema](./diagrama_flujo.png) 
-*(Nota: Asegúrate de subir tu imagen del diagrama en Figma con el nombre "diagrama_flujo.png" en la misma carpeta de GitHub para que se visualice aquí).*
-
----
-
-##  Recursos Multimedia Utilizados
-
-* **Tipo de recurso:** Audio Sintetizado (p5.Oscillator de tipo triangle).
-* **Función dentro del proyecto:** Actúa como un puente sinestésico que reacciona a la interacción del usuario. No es un elemento decorativo; su frecuencia está directamente amarrada a la posición de las formas del sistema (`mouseX` y el tamaño del triángulo). En el Estado 0 permanece apagado para respetar la estructura de la interfaz, y se enciende en las experiencias interactivas.
+* **Idea central:** Traducir los principios de la escuela Bauhaus a un entorno digital algorítmico, donde las formas y los colores no son estáticos, sino variables fluidas controladas por lógica matemática e interactiva.
+* **Corriente o referente de diseño:** La escuela estatal Bauhaus, inspirándose de manera particular en los talleres de pintura abstracta, las composiciones modulares y las teorías del color desarrolladas por Vasili Kandinsky y Johannes Itten.
+* **Referentes visuales, históricos o teóricos:** Los afiches tipográficos y composiciones de la etapa de Weimar. Se retoma el concepto histórico de la sinestesia (asociar directamente un tono cromático o una forma geométrica a una frecuencia sonora específica), explorado activamente en los tratados teóricos de Kandinsky.
+* **Principio de diseño explorado:** La síntesis geométrica estricta, la modulación espacial a través de grillas constructivas y el uso exclusivo de la paleta tipificada de colores primarios y neutros de la escuela.
 
 ---
 
-##  Registro Visual y Proceso
+## Sistema Computacional
 
-### Bocetos e Ideas Iniciales
-*Aquí puedes describir brevemente cómo pensaste la grilla o las formas en papel antes de pasarlas a código.*
+El proyecto se comporta como un sistema cerrado que procesa entradas de datos directas para generar transformaciones en los estados visuales y sonoros:
 
-### Capturas del Proceso
-*(Inserta capturas de pantalla de tus estados aquí)*
-* **Pantalla de Inicio:** ¡Interfaz limpia inspirada en los afiches de Weimar!
-* **Grilla Interactiva:** Demostración del cambio en la matriz geométrica.
+ Componente | Detalle y Variables Asociadas 
+
+ **Inputs** Posición del cursor (mouseX, mouseY), eventos de teclado (key), click del mouse sostenido (mouseIsPressed). 
+ **Procesos**  Mapeo continuo (map()) para calcular filas, columnas y tamaños; cálculo de alternancia geométrica y cromática con el operador residuo (%); desfases aleatorios por interacción (random()); desplazamiento vertical infinito basado en el conteo de cuadros (frameCount). 
+ **Estados**  **Estado 0:** Pantalla de inicio estática con instrucciones.<br>**Estado 1:** Grilla interactiva modular en movimiento continuo.<br>**Estado 2:** Estudio concéntrico de color y forma sinestésica.
+ **Eventos**  Presión de tecla A/a (cambio a Estado 1); presión de tecla S/s (cambio a Estado 2); presión de tecla E/e (retorno a Estado 0); click sostenido (activación de factor de ruido aleatorio en formas). 
+ **Outputs**  Actualización visual en el canvas (formas en movimiento, textos de interfaz) y generación de audio sintético variable mediante oscilador triangular. 
 
 ---
 
-##  Reflexión Final
+## Explicación de la Interacción
 
-* **Principales decisiones tomadas:** Decidi implementar un control de estados estricto mediante el teclado para permitir una navegación fluida. También se opte por un oscilador de onda triangular a volumen muy bajo (0.01) En el estado 1 y un volumen de (0.03) en el estado 2 para generar una atmósfera sonora interactiva pero sutil en la que, del estado 1 al estado 2 haya una subida del volumen, queriendo evidenciar la transición tambien de manera auditiva.
-* **Dificultades encontradas:** Lograr que los elementos de la grilla bajaran y subieran de manera infinita sin salirse del margen del afiche inferior requirió calibrar correctamente el operador matemático de residuo con el `height`.
-* **Aprendizajes obtenidos:**Entendí mejor la programación orientada a estados en p5.js, comprendi cómo un mismo software puede cambiar radicalmente su comportamiento y su lógica de interacción en base a variables globales de control.
+* **Qué datos entran al sistema:** Entran las coordenadas numéricas de posición del mouse y los códigos de caracteres de las teclas presionadas por el usuario.
+* **Cómo se procesan:** Los datos numéricos del cursor se normalizan y re-escalan a rangos útiles mediante funciones matemáticas de mapeo. Las pulsaciones de teclas pasan por una estructura condicional de control para redefinir el valor de la variable de estado general.
+* **Cómo se transforman:** La posición horizontal modifica directamente la cantidad de columnas visibles en la grilla o el ancho de la base del triángulo principal; simultáneamente cambia el valor en hercios de la frecuencia sonora. La posición vertical altera el número de filas o el diámetro oscilante de los círculos.
+* **Qué respuestas producen:** El sistema redibuja el lienzo a 60 cuadros por segundo mostrando cambios instantáneos de escala y posición geométrica, al mismo tiempo que el sintetizador de audio eleva o disminuye su tono y altera su volumen de salida para evidenciar auditivamente las transiciones del espacio.
+
+---
+
+## Recursos Multimedia Utilizados
+
+* **Tipo de recurso utilizado:** Audio Sintetizado digitalmente en tiempo real a través del componente p5.Oscillator configurado con una onda de tipo triangular (triangle).
+* **Función que cumple dentro del proyecto:** Actúa como un puente sinestésico que reacciona a la interacción directa del usuario. No se utiliza como un elemento decorativo de fondo; su frecuencia está firmemente amarrada a las propiedades espaciales del sistema (posición horizontal y tamaño del triángulo). En el Estado 0 permanece completamente apagado para respetar la estructura limpia de la interfaz de presentación, y se enciende en las experiencias interactivas modificando sutilmente su volumen entre el Estado 1 (0.01) y el Estado 2 (0.03) para acentuar el paso entre atmósferas.
+
+---
+
+## Diagrama de Flujo
+
+A continuación se presenta el mapa lógico del sistema que describe las transiciones de los estados, los procesos y las decisiones condicionales del código:
+
+![Diagrama de flujo del sistema interactivo](diagrama_flujo.png)
+
+*Nota: Asegúrate de exportar tu diagrama digital desde Figma en formato PNG, guardarlo dentro del repositorio con el nombre exacto de `diagrama_flujo.png` al mismo nivel que este archivo README para su correcta visualización.*
+
+---
+
+## Registro Visual
+
+### Referentes y Bocetos
+*Aquí puedes describir brevemente cómo pensaste la grilla modular o la disposición de las formas en papel y tus referencias visuales antes de traspasarlas por completo a las líneas de código.*
+
+### Iteraciones y Capturas del Proceso
+
+#### Pantalla de Inicio
+![Captura de la interfaz de inicio](imagenes/captura_inicio.png)
+*Descripción: Interfaz gráfica limpia inspirada en la composición y balance de los afiches tipográficos de la escuela Bauhaus en Weimar.*
+
+#### Grilla Interactiva
+![Captura de la grilla dinámica](imagenes/captura_grilla.png)
+*Descripción: Demostración del comportamiento de la matriz geométrica activa, variando su densidad modular de acuerdo al movimiento del mouse.*
+
+---
+
+## Reflexión Final
+
+* **Principales decisiones tomadas:** Se decidió implementar un control de estados estricto y centralizado mediante eventos de teclado para garantizar una navegación de usuario fluida y libre de interrupciones. Asimismo, se optó por un oscilador de onda triangular calibrado a volúmenes muy sutiles (0.01 en el Estado 1 y 0.03 en el Estado 2); esta sutil diferencia permite evidenciar la transición de la experiencia no solo de manera gráfica, sino también a través de una progresión atmosférica de carácter auditivo.
+* **Dificultades encontradas:** El mayor desafío técnico consistió en lograr que los elementos de la grilla se desplazaran de forma vertical infinita en sentidos opuestos sin salirse de los márgenes inferiores diseñados para el afiche. Esto requirió calibrar y sincronizar minuciosamente el operador matemático de residuo (`%`) en relación con el parámetro del lienzo (`height - 80`).
+* **Aprendizajes obtenidos:** El proyecto permitió consolidar la comprensión práctica sobre la programación orientada a estados en entornos de diseño interactivo. Se comprendió con claridad de qué manera un mismo software puede modificar radicalmente su comportamiento visual, sus ecuaciones y su lógica de interacción global con el usuario basándose simplemente en la gestión de variables de control global.
