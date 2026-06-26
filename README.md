@@ -8,8 +8,8 @@
 ---
 
 ##  Enlaces del Proyecto
-**Link público para ejecutar el proyecto**(https://editor.p5js.org/fatima.vera/full/ZBB3iKDFj)
-**Link editable para revisar el código**(https://editor.p5js.org/fatima.vera/sketches/ZBB3iKDFj)
+**Link público para ejecutar el proyecto**(https://editor.p5js.org/fatima.vera/sketches/ZBB3iKDFj))            
+**Link editable para revisar el código**(https://editor.p5js.org/fatima.vera/sketches/ZBB3iKDFj))
 
 ---
 
