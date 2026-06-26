@@ -1,9 +1,9 @@
 
 # BAUHAUS DIGITAL: Sistema Visual Interactivo
-**Autor:** Fatima Alexia Vera Navarrete
-**Profesora:** Sofía Suazo
-**Asignatura:** Pensamiento Computacional  
-**Examen Final** - Escuela de Diseño UDP  
+**Autor:** Fatima Alexia Vera Navarrete            
+**Profesora:** Sofía Suazo             
+**Asignatura:** Pensamiento Computacional              
+**Examen Final** - Escuela de Diseño UDP          
 
 ---
 
@@ -16,7 +16,7 @@
 ##  Descripción General
 
 ### Descripción Objetiva
-**Bauhaus Digital** es un sistema visual e interactivo desarrollado en p5.js. El usuario se encuentra inicialmente con una pantalla de bienvenida que introduce los comandos. Al interactuar con el teclado, puede acceder a dos escenas dinámicas: una grilla geométrica que reconfigura su cantidad de columnas y filas mediante el movimiento del mouse, y un estudio de color con círculos concéntricos y un triángulo interactivo. El sistema genera respuestas visuales en tiempo real y modula frecuencias de audio el cual cambia segun las acciones del usuario.
+**Bauhaus Digital** Es un sistema visual e interactivo desarrollado en p5.js. El usuario se encuentra inicialmente con una pantalla de bienvenida que introduce los comandos. Al interactuar con el teclado, puede acceder a dos escenas dinámicas: una grilla geométrica que reconfigura su cantidad de columnas y filas mediante el movimiento del mouse, y un estudio de color con círculos concéntricos y un triángulo interactivo. El sistema genera respuestas visuales en tiempo real y modula frecuencias de audio el cual cambia segun las acciones del usuario.
 
 ### Descripción Conceptual
 * **Idea Central:** Traducir los principios de la escuela Bauhaus a un entorno digital algorítmico, donde las formas y los colores no son estáticos, sino variables controladas por lógica matemática e interactiva.
@@ -39,9 +39,9 @@ El proyecto se comporta como un sistema cerrado que procesa entradas para genera
     * Cálculo del desplazamiento vertical infinito basado en el frameCount.
     * Generación de desfases mediante random() al hacer click.
 * **Estados del Sistema:**
-    * `Estado 0: Pantalla de inicio (Presentación del afiche estático e instrucciones).
-    * `Estado 1`: Grilla Bauhaus (Composición modular interactiva en movimiento continuo).
-    * `Estado 2`: Estudio de Color y Forma (Exploración geométrica concéntrica y sinestésica).
+    * Estado 0: Pantalla de inicio (Presentación del afiche estático e instrucciones).
+    * Estado 1: Grilla Bauhaus (Composición modular interactiva en movimiento continuo).
+    * Estado 2: Estudio de Color y Forma (Exploración geométrica concéntrica y sinestésica).
 * **Eventos:**
     * Presionar A o a: Transiciona al Estado 1.
     * Presionar S o s: Transiciona al Estado 2.
@@ -83,6 +83,6 @@ A continuación se presenta el mapa lógico del sistema que describe las transic
 
 ##  Reflexión Final
 
-* **Principales decisiones tomadas:** Decidi implementar un control de estados estricto mediante el teclado para permitir una navegación fluida. También se opte por un oscilador de onda triangular a volumen muy bajo (0.05) para generar una atmósfera sonora interactiva pero sutil, evitando ruidos molestos.
+* **Principales decisiones tomadas:** Decidi implementar un control de estados estricto mediante el teclado para permitir una navegación fluida. También se opte por un oscilador de onda triangular a volumen muy bajo (0.01) En el estado 1 y un volumen de (0.03) en el estado 2 para generar una atmósfera sonora interactiva pero sutil en la que, del estado 1 al estado 2 haya una subida del volumen, queriendo evidenciar la transición tambien de manera auditiva.
 * **Dificultades encontradas:** Lograr que los elementos de la grilla bajaran y subieran de manera infinita sin salirse del margen del afiche inferior requirió calibrar correctamente el operador matemático de residuo con el `height`.
 * **Aprendizajes obtenidos:**Entendí mejor la programación orientada a estados en p5.js, comprendi cómo un mismo software puede cambiar radicalmente su comportamiento y su lógica de interacción en base a variables globales de control.
