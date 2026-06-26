@@ -85,8 +85,9 @@ El proyecto se comporta como un sistema cerrado que procesa entradas de datos di
 
 ### Referentes
 
-<img width="350" height="350" alt="wassily-kandinsky" src="https://github.com/user-attachments/assets/6f96f8e8-67fa-4fec-8e32-f25f324d40bf" />
-<img width="440" height="454" alt="images" src="https://github.com/user-attachments/assets/aaefcac0-c0ef-42f9-b8ab-96ba557d613f" />
+
+https://moryarty.es/products/bauhaus-abstract-geometric-moryarty-poster-fine-art-print
+
 
 
 
@@ -110,6 +111,6 @@ El proyecto se comporta como un sistema cerrado que procesa entradas de datos di
 
 ## Reflexión Final
 
-* **Principales decisiones tomadas:** Se decidió implementar un control de estados estricto y centralizado mediante eventos de teclado para garantizar una navegación de usuario fluida y libre de interrupciones. Asimismo, se optó por un oscilador de onda triangular calibrado a volúmenes muy sutiles (0.01 en el Estado 1 y 0.03 en el Estado 2); esta sutil diferencia permite evidenciar la transición de la experiencia no solo de manera gráfica, sino también a través de una progresión atmosférica de carácter auditivo.
-* **Dificultades encontradas:** El mayor desafío técnico consistió en lograr que los elementos de la grilla se desplazaran de forma vertical infinita en sentidos opuestos sin salirse de los márgenes inferiores diseñados para el afiche. Esto requirió calibrar y sincronizar minuciosamente el operador matemático de residuo (%) en relación con el parámetro del lienzo (height - 80).
-* **Aprendizajes obtenidos:** El proyecto permitió consolidar la comprensión práctica sobre la programación orientada a estados en entornos de diseño interactivo. Se comprendió con claridad de qué manera un mismo software puede modificar radicalmente su comportamiento visual, sus ecuaciones y su lógica de interacción global con el usuario basándose simplemente en la gestión de variables de control global.
+* **Principales decisiones tomadas:** Decidi implementar un control de estados estricto y centralizado mediante eventos de teclado para garantizar una navegación de usuario fluida y libre de interrupciones. Asimismo, se opte por un oscilador de onda triangular calibrado a volúmenes muy sutiles (0.01 en el Estado 1 y 0.03 en el Estado 2); esta sutil diferencia permite evidenciar la transición de la experiencia no solo de manera gráfica, sino también a través de una progresión atmosférica de carácter auditivo.
+* **Dificultades encontradas:** El mayor desafío técnico que tube fue lograr que los elementos de la grilla se desplazaran de forma vertical infinita en sentidos opuestos sin salirse de los márgenes inferiores diseñados para el afiche. Esto requirió calibrar y sincronizar minuciosamente el operador matemático de residuo (%) en relación con el parámetro del lienzo (height - 80).
+* **Aprendizajes obtenidos:** El proyecto me permitió comprender mejor sobre la programación orientada a estados en entornos de diseño interactivo. Comprendi de qué manera un mismo software puede modificar radicalmente su comportamiento visual, sus ecuaciones y su lógica de interacción global con el usuario basándose simplemente en la gestión de variables de control global.
