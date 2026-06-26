@@ -84,6 +84,7 @@ El proyecto se comporta como un sistema cerrado que procesa entradas de datos di
 ## Registro Visual
 
 ### Referentes
+
 <img width="350" height="350" alt="wassily-kandinsky" src="https://github.com/user-attachments/assets/6f96f8e8-67fa-4fec-8e32-f25f324d40bf" />
 <img width="440" height="454" alt="images" src="https://github.com/user-attachments/assets/aaefcac0-c0ef-42f9-b8ab-96ba557d613f" />
 
@@ -93,15 +94,17 @@ El proyecto se comporta como un sistema cerrado que procesa entradas de datos di
 
 
 
-### Iteraciones y Capturas del Proceso
+### Capturas del Proceso
 
-#### Pantalla de Inicio
-![Captura de la interfaz de inicio](imagenes/captura_inicio.png)
-*Descripción: Interfaz gráfica limpia inspirada en la composición y balance de los afiches tipográficos de la escuela Bauhaus en Weimar.*
+<img width="1920" height="873" alt="Captura de pantalla (10)" src="https://github.com/user-attachments/assets/3ce6ae7c-153d-4e8d-abcb-609049b19520" />
+<img width="1920" height="868" alt="Captura de pantalla (11)" src="https://github.com/user-attachments/assets/170d528a-81a2-4ff9-a825-f5c5260a21e1" />
+<img width="1920" height="829" alt="Captura de pantalla (12)" src="https://github.com/user-attachments/assets/8ac26425-a307-4b46-b5f4-99db541566cd" />
+<img width="1920" height="811" alt="Captura de pantalla (13)" src="https://github.com/user-attachments/assets/8f8dbed3-eb04-4e6c-b462-07ce23767b6c" />
+<img width="1920" height="842" alt="Captura de pantalla (14)" src="https://github.com/user-attachments/assets/02abfe23-ad39-443d-a2f6-2047be43c87c" />
 
-#### Grilla Interactiva
-![Captura de la grilla dinámica](imagenes/captura_grilla.png)
-*Descripción: Demostración del comportamiento de la matriz geométrica activa, variando su densidad modular de acuerdo al movimiento del mouse.*
+
+
+
 
 ---
 
