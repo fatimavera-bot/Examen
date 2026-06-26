@@ -17,7 +17,7 @@
 ## Información del Proyecto
 
 * **Nombre del proyecto:** BAUHAUS DIGITAL: Sistema Visual Interactivo
-* **Autora:** Fatima Alexia Vera Navarrete
+
 * **Descripción general:** Sistema visual e interactivo desarrollado en p5.js que traduce los lenguajes artísticos de la vanguardia Bauhaus a un entorno algorítmico y reactivo. El sistema transita por una pantalla informativa y dos experiencias dinámicas donde el color, la geometría y la síntesis sonora interactúan directamente con las acciones del usuario mediante teclado y mouse.
 
 ---
@@ -36,7 +36,6 @@
 
 * **Idea central:** Traducir los principios de la escuela Bauhaus a un entorno digital algorítmico, donde las formas y los colores no son estáticos, sino variables fluidas controladas por lógica matemática e interactiva.
 * **Corriente o referente de diseño:** La escuela Bauhaus, me inspire en los talleres de pintura abstracta, las composiciones modulares y las teorías del color desarrolladas por Vasili Kandinsky y Johannes Itten.
-* **Referentes visuales, históricos o teóricos:** Los afiches tipográficos y composiciones de la etapa de Weimar. Se retoma el concepto histórico de la sinestesia (asociar directamente un tono cromático o una forma geométrica a una frecuencia sonora específica), explorado activamente en los tratados teóricos de Kandinsky.
 * **Principio de diseño explorado:** La síntesis geométrica, la modulación espacial a través de grillas constructivas y el uso de la paleta de colores primarios y neutros de la escuela.
 
 ---
@@ -73,7 +72,8 @@ El proyecto se comporta como un sistema cerrado que procesa entradas de datos di
 
 ## Diagrama de Flujo
 
-<img width="1380" height="752" alt="diagrama flujo final" src="https://github.com/user-attachments/assets/0e5ade95-6b7e-4194-aab3-e9ab0e2247ac" />
+<img width="1380" height="752" alt="diagrama flujo final final" src="https://github.com/user-attachments/assets/29c6a7a0-b73a-4a09-ab63-f46cfd4f94b7" />
+
 
 
 
