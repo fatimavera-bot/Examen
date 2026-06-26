@@ -9,7 +9,7 @@
 
 ## Enlaces del Proyecto
 
-**Proyecto en pantalla completa** https://editor.p5js.org/fatima.vera/full/ZBB3iKDFj
+**Proyecto en pantalla completa** https://editor.p5js.org/fatima.vera/full/ZBB3iKDFj         
 **Código en p5.js** ]https://editor.p5js.org/fatima.vera/sketches/ZBB3iKDFj
 
 ---
@@ -26,7 +26,7 @@
 
 * **Qué es el proyecto:** Es un software de arte generativo y diseño interactivo programado sobre la biblioteca p5.js.
 * **Qué se ve en pantalla:** Una interfaz gráfica modular variable que transita por tres vistas o estados de interacción diferenciados por el uso del color de fondo y la densidad geométrica.
-* **Qué elementos visuales aparecen:** Rectángulos, líneas de corte vertical, textos tipográficos de estilo afiche, una matriz de celdas móviles independientes que alternan cuadrados y círculos, círculos concéntricos expansivos y un triángulo central con transparencias.
+* **Qué elementos visuales aparecen:** Rectángulos, líneas de corte vertical, textos tipográficos de estilo afiche, una matriz de celdas móviles independientes que alternan cuadrados y círculos, círculos expansivos y un triángulo central con transparencias.
 * **Qué inputs utiliza:** Coordenadas de posición del cursor en los ejes horizontal y vertical, clicks continuos del mouse y pulsaciones de teclas específicas (*A*, *S*, *E*).
 * **Qué outputs genera:** Renderizado gráfico reactivo bidimensional en un lienzo digital de 400x600 píxeles y una onda de audio sintetizada cuya frecuencia y volumen se transforman dinámicamente en tiempo real.
 
@@ -35,9 +35,9 @@
 ## Descripción Conceptual
 
 * **Idea central:** Traducir los principios de la escuela Bauhaus a un entorno digital algorítmico, donde las formas y los colores no son estáticos, sino variables fluidas controladas por lógica matemática e interactiva.
-* **Corriente o referente de diseño:** La escuela estatal Bauhaus, inspirándose de manera particular en los talleres de pintura abstracta, las composiciones modulares y las teorías del color desarrolladas por Vasili Kandinsky y Johannes Itten.
+* **Corriente o referente de diseño:** La escuela Bauhaus, me inspire en los talleres de pintura abstracta, las composiciones modulares y las teorías del color desarrolladas por Vasili Kandinsky y Johannes Itten.
 * **Referentes visuales, históricos o teóricos:** Los afiches tipográficos y composiciones de la etapa de Weimar. Se retoma el concepto histórico de la sinestesia (asociar directamente un tono cromático o una forma geométrica a una frecuencia sonora específica), explorado activamente en los tratados teóricos de Kandinsky.
-* **Principio de diseño explorado:** La síntesis geométrica estricta, la modulación espacial a través de grillas constructivas y el uso exclusivo de la paleta tipificada de colores primarios y neutros de la escuela.
+* **Principio de diseño explorado:** La síntesis geométrica, la modulación espacial a través de grillas constructivas y el uso de la paleta de colores primarios y neutros de la escuela.
 
 ---
 
@@ -67,17 +67,17 @@ El proyecto se comporta como un sistema cerrado que procesa entradas de datos di
 ## Recursos Multimedia Utilizados
 
 * **Tipo de recurso utilizado:** Audio Sintetizado digitalmente en tiempo real a través del componente p5.Oscillator configurado con una onda de tipo triangular (triangle).
-* **Función que cumple dentro del proyecto:** Actúa como un puente sinestésico que reacciona a la interacción directa del usuario. No se utiliza como un elemento decorativo de fondo; su frecuencia está firmemente amarrada a las propiedades espaciales del sistema (posición horizontal y tamaño del triángulo). En el Estado 0 permanece completamente apagado para respetar la estructura limpia de la interfaz de presentación, y se enciende en las experiencias interactivas modificando sutilmente su volumen entre el Estado 1 (0.01) y el Estado 2 (0.03) para acentuar el paso entre atmósferas.
+* **Función que cumple dentro del proyecto:** Actúa como un puente que reacciona a la interacción directa del usuario. No se utiliza como un elemento decorativo de fondo; su frecuencia está amarrada a las propiedades espaciales del sistema (posición horizontal y tamaño del triángulo). En el Estado 0 permanece completamente apagado para respetar la estructura limpia de la interfaz de presentación, y se enciende en las experiencias interactivas modificando sutilmente su volumen entre el Estado 1 (0.01) y el Estado 2 (0.03) para acentuar el paso entre atmósferas.
 
 ---
 
 ## Diagrama de Flujo
 
-A continuación se presenta el mapa lógico del sistema que describe las transiciones de los estados, los procesos y las decisiones condicionales del código:
+<img width="1380" height="752" alt="diagrama flujo final" src="https://github.com/user-attachments/assets/0e5ade95-6b7e-4194-aab3-e9ab0e2247ac" />
 
-![Diagrama de flujo del sistema interactivo](diagrama_flujo.png)
 
-*Nota: Asegúrate de exportar tu diagrama digital desde Figma en formato PNG, guardarlo dentro del repositorio con el nombre exacto de `diagrama_flujo.png` al mismo nivel que este archivo README para su correcta visualización.*
+
+
 
 ---
 
@@ -101,5 +101,5 @@ A continuación se presenta el mapa lógico del sistema que describe las transic
 ## Reflexión Final
 
 * **Principales decisiones tomadas:** Se decidió implementar un control de estados estricto y centralizado mediante eventos de teclado para garantizar una navegación de usuario fluida y libre de interrupciones. Asimismo, se optó por un oscilador de onda triangular calibrado a volúmenes muy sutiles (0.01 en el Estado 1 y 0.03 en el Estado 2); esta sutil diferencia permite evidenciar la transición de la experiencia no solo de manera gráfica, sino también a través de una progresión atmosférica de carácter auditivo.
-* **Dificultades encontradas:** El mayor desafío técnico consistió en lograr que los elementos de la grilla se desplazaran de forma vertical infinita en sentidos opuestos sin salirse de los márgenes inferiores diseñados para el afiche. Esto requirió calibrar y sincronizar minuciosamente el operador matemático de residuo (`%`) en relación con el parámetro del lienzo (`height - 80`).
+* **Dificultades encontradas:** El mayor desafío técnico consistió en lograr que los elementos de la grilla se desplazaran de forma vertical infinita en sentidos opuestos sin salirse de los márgenes inferiores diseñados para el afiche. Esto requirió calibrar y sincronizar minuciosamente el operador matemático de residuo (%) en relación con el parámetro del lienzo (height - 80).
 * **Aprendizajes obtenidos:** El proyecto permitió consolidar la comprensión práctica sobre la programación orientada a estados en entornos de diseño interactivo. Se comprendió con claridad de qué manera un mismo software puede modificar radicalmente su comportamiento visual, sus ecuaciones y su lógica de interacción global con el usuario basándose simplemente en la gestión de variables de control global.
